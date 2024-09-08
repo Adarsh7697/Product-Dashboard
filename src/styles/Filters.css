@@ -1,0 +1,19 @@
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .filter select {
+    padding: 5px;
+  }
+  

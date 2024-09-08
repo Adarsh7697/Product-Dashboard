@@ -1,0 +1,15 @@
+.sort-options-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sort-options-container label {
+    margin-right: 10px;
+  }
+  
+  .sort-options-container select, .sort-options-container button {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
