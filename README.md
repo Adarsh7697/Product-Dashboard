@@ -71,8 +71,22 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/product-list-app.git
-   cd product-list-app
+   git clone https://github.com/Product-Dashboard
+   cd Product-Dashboard
+
+2. **Install dependencies:**
+   
+   ```bash
+   npm install
+
+4. **Running the Application**
+   
+   ```bash
+      npm start
+
+
+
+![airia2](https://github.com/user-attachments/assets/df896424-6756-4361-8038-88b58b0786f4)
 
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
