@@ -26,20 +26,57 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+# Product List Application
+
+This is a React-based web application that fetches and displays a list of products with search, filter, and pagination functionalities. The app is designed to showcase a variety of products fetched from a remote API, allowing users to search by product title, filter by price and popularity, and sort the results.
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Setup](#setup)
+- [Running the Application](#running-the-application)
+- [API Service](#api-service)
+- [Components](#components)
+- [Styling](#styling)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+
+## Project Structure
+
+The project follows a standard React structure:
+
+├── public/ │ ├── index.html │ └── ... ├── src/ │ ├── api/ │ │ └── apiService.js │ ├── components/ │ │ ├── Filters.js │ │ ├── Pagination.js │ │ ├── ProductList.js │ │ ├── SearchBar.js │ │ ├── SortOptions.js │ └── styles/ │ ├── ProductList.css │ ├── App.js │ ├── index.js │ └── ... ├── .gitignore ├── package.json ├── README.md └── ...
+
+
+## Features
+
+- **Product Listing:** Displays a list of products with title, price, and popularity.
+- **Search:** Allows users to search products by title.
+- **Filtering:** Users can filter products by price range and popularity range.
+- **Sorting:** Products can be sorted by price or popularity in ascending or descending order.
+- **Pagination:** The list of products is paginated to improve readability and performance.
+
+## Setup
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (version 14.x or higher)
+- **npm** or **yarn** (npm is recommended)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/product-list-app.git
+   cd product-list-app
+
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
